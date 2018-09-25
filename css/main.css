@@ -2,6 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	background: url("../img/corgis.jpg") repeat;
+	color: #0F2E35;
 }
 
 h1 {
@@ -13,5 +14,20 @@ h1 {
 	color: white;
 	width: 80vw;
 	margin: auto;
-	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.white {
+	backgroumd: white;
+}
+
+.small {
+	background: white;
+	color: red;
+	width: 30vw;
+	margin: 20vw, ;
+}
+
+.italics {
+	font-style: oblique;
 }
