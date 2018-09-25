@@ -9,6 +9,10 @@ h1 {
 	font-family: 'Chicle', sans-serif;
 }
 
+h3 {
+	font-weight: 800;
+}
+
 .card {
 	background: #0F2E35;
 	color: white;
@@ -30,6 +34,11 @@ h1 {
 
 .italics {
 	font-style: oblique;
+}
+
+.strong {
+	font-weight: 900;
+	text-decoration: underline;
 }
 
 @media (max-width: 767.98px) {
