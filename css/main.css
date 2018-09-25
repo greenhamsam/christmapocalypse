@@ -7,3 +7,11 @@ body {
 h1 {
 	font-family: 'Chicle', sans-serif;
 }
+
+.card {
+	background: #0F2E35;
+	color: white;
+	width: 80vw;
+	margin: auto;
+	margin-bottom: 20px;
+}
