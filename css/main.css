@@ -7,6 +7,7 @@ body {
 
 h1 {
 	font-family: 'Chicle', sans-serif;
+	font-size: 10em;
 }
 
 h3 {
@@ -23,6 +24,14 @@ h3 {
 
 .white {
 	backgroumd: white;
+}
+
+.green {
+	background: white;
+	width: 30vw;
+	margin: 20vw, ;
+	text-align: center;
+	color: green;
 }
 
 .small {
@@ -42,9 +51,30 @@ h3 {
 	text-decoration: underline;
 }
 
+.gallery {
+	width: 80vw;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.img-thumbnail {
+	max-width: 40vw;
+	margin-top: 20px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+
 @media (max-width: 815px) {
 	h1 {
-		font-size: 3em;
+		font-size: 8em;
 	}
 	
 	.display-1 {
@@ -55,6 +85,10 @@ h3 {
 @media (max-width: 570px) {
 	.small {
 		width: 80vw;	
+	}
+	
+	.green {
+		width: 80vw;
 	}
 	
 	h3 {
