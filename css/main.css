@@ -5,6 +5,20 @@ body {
 	color: #0F2E35;
 }
 
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
+
+.display-1 {
+	color: white;
+}
+
 h1 {
 	font-family: 'Chicle', sans-serif;
 	font-size: 10em;
@@ -42,6 +56,40 @@ h3 {
 	text-align: center;
 }
 
+.year {
+	color: green;
+	background-color: white;
+}
+
+.year-details {
+	display: none;
+	width: 80vw;
+	margin: auto;
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.question {
+	font-weight: bold;
+	line-height: 1;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.answer {
+	font-weight: lighter;
+	line-height: 1;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.quiz-img {
+	padding-left: 20px;
+	max-width: 40vw;
+}
+
 .italics {
 	font-style: oblique;
 }
@@ -60,16 +108,6 @@ h3 {
 .img-thumbnail {
 	max-width: 40vw;
 	margin-top: 20px;
-}
-
-a {
-	color: white;
-	text-decoration: none;
-}
-
-a:hover {
-	color: green;
-	text-decoration: none;
 }
 
 @media (max-width: 815px) {
