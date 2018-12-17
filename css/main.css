@@ -30,6 +30,7 @@ h3 {
 	color: red;
 	width: 30vw;
 	margin: 20vw, ;
+	text-align: center;
 }
 
 .italics {
@@ -41,8 +42,26 @@ h3 {
 	text-decoration: underline;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 815px) {
 	h1 {
-		font-size: 0.5em;
+		font-size: 3em;
+	}
+	
+	.display-1 {
+		font-size: 4em;
+	}
+}
+
+@media (max-width: 570px) {
+	.small {
+		width: 80vw;	
+	}
+	
+	h3 {
+		font-size: 1em;
+	}
+	
+	.display-1 {
+		font-size: 2em;
 	}
 }
