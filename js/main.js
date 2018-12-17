@@ -1,6 +1,4 @@
-// Collapsable quiz things
-
-console.log("Yes I'm working");
+// Collapsables
 
 var coll = document.getElementsByClassName("card-year");
 var i;
@@ -16,4 +14,3 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
-// The countdown timer
