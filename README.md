@@ -11,5 +11,4 @@ This is the website for our badly-named annual overeating, quizzing, gifting, fr
 
 ## TODO
 - Fix the background pattern overlap
-- Fix the toggler
-- Add favicon
+- Test why script doesn't load immediately
