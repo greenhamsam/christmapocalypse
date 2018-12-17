@@ -73,7 +73,6 @@ h3 {
 	margin: auto;
 	background-color: white;
 	padding-bottom: 50px;
-	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
