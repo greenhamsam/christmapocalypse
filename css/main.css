@@ -60,10 +60,13 @@ h3 {
 	color: green;
 	background-color: white;
 	cursor: pointer;
+	width: 80vw;
+	margin: auto;
+	margin-top: 20px;
 }
 
 .active, .card-year:hover {
-  background-color: #ccc;
+  background-color: #F5FFF7;
 }
 
 
@@ -81,6 +84,12 @@ h3 {
 	font-weight: bold;
 	line-height: 1;
 	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.question-sub {
+	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
