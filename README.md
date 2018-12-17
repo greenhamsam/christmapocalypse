@@ -10,9 +10,6 @@ This is the website for our badly-named annual overeating, quizzing, gifting, fr
 - Sam Beckbessinger
 
 ## TODO
-- Get countdown timer working
-- Scale "Christmapocalypse" down on mobile
 - Fix the background pattern overlap
-- Add "Past quizzes" pages
-- Add "Prepare for this year's quiz" page
+- Fix the toggler
 - Add favicon

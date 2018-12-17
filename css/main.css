@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	background: url("../img/corgis.jpg") repeat;
 	color: #0F2E35;
+	padding-bottom: 80px;
 }
 
 a {
@@ -100,6 +101,14 @@ h3 {
 	padding-top: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.img-container {
+	text-align: center;
+}
+
+.img-fluid {
+	padding: 20px;
 }
 
 .quiz-img {
