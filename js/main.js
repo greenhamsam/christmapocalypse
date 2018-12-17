@@ -12,7 +12,7 @@ for (i = 0; i < coll.length; i++) {
     if (content.style.display){
       content.style.display = "block";
     } else {
-      content.style.display = "block";
+      content.style.display = "none";
     } 
   });
 }
