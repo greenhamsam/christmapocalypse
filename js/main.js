@@ -1,5 +1,7 @@
 // Collapsable quiz things
 
+console.log("Yes I'm working");
+
 var coll = document.getElementsByClassName("card-year");
 var i;
 
