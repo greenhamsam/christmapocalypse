@@ -56,10 +56,16 @@ h3 {
 	text-align: center;
 }
 
-.year {
+.card-year {
 	color: green;
 	background-color: white;
+	cursor: pointer;
 }
+
+.active, .card-year:hover {
+  background-color: #ccc;
+}
+
 
 .year-details {
 	display: none;
@@ -67,6 +73,9 @@ h3 {
 	margin: auto;
 	background-color: white;
 	padding-bottom: 50px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
 }
 
 .question {
